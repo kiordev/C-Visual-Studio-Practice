@@ -9,6 +9,6 @@ namespace TestProject
 {
     internal class Testing
     {
-        Console.WriteLine("");
+        
     }
 }

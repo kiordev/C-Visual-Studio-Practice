@@ -12,13 +12,18 @@ namespace TestProject
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello world!");
-            Console.WriteLine("Hello world!");
+            Human sasha = new Human();
+            sasha.createHuman("Sasha", "Male", 22, 179, 100);
+            sasha.printHumanInfo();
+            sasha.setHumanHealth(90);
+            sasha.printHumanInfo();
 
         }
     }
+
+
         
 }
 
