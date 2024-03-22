@@ -12,6 +12,11 @@ namespace TestProject
         public int height;
         public int health;
 
+        public Human(string _name, string _sex, int _age, int _height, int _health)
+        {
+            createHuman(_name, _sex, _age, _height, _health);
+        }
+
         public void createHuman(string _name, string _sex, int _age, int _height, int _health)
         {
             name = _name;
